@@ -21,6 +21,7 @@ h3{
     text-align: center;
 }
 
+/* created a css class for the darkModeButton which is called dark-mode-button */
 .dark-mode-button{
     background-color: #222;
     color: #e6e6e6;

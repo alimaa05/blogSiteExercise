@@ -35,6 +35,14 @@
 
 // darkModeButton.addEventListener("click", handleButtonClick)
 
+// ----------------------------------------------------------------
+// Creating a fucntion called darkModeButton 
+// creating a variable named element which is equal to the document.body 
+// i.e. the element that contains the content for the document
+// classList is a DOM property that allows for styling the css classes of an element
+// classList is a read-only property that returns the names of the css classes
+// toggle() is method which switches between hide() and show() for the selected elements
+// so classList.toggle suuports adding and removing css classes 
 function darkModeButton(){
     let element = document.body;
     element.classList.toggle("dark-mode-button")
