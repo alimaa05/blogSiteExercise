@@ -35,6 +35,7 @@
 
 // darkModeButton.addEventListener("click", handleButtonClick)
 
+
 // ----------------------------------------------------------------
 // Creating a fucntion called darkModeButton 
 // creating a variable named element which is equal to the document.body 
@@ -47,3 +48,11 @@ function darkModeButton(){
     let element = document.body;
     element.classList.toggle("dark-mode-button")
 } 
+
+// ----------------------------------------------------------------
+// Create add to favourites button
+
+function favBtn(element){
+    element.classList.toggle("addToFavourite")
+}
+

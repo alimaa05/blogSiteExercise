@@ -26,3 +26,28 @@ h3{
     background-color: #222;
     color: #e6e6e6;
 }
+
+
+/* ------------------------------ */
+
+.fav-btn{
+    display: flex;
+    font-size: 17px;
+    justify-content:flex-end;
+    
+}
+
+.addToFavourite {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    user-select: none;
+    color: rgb(246, 85, 139);
+  
+    
+   
+  }
+
+.addToFavourite:hover {
+    color: yellow;
+  }
