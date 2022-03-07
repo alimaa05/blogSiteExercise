@@ -56,3 +56,13 @@ function favBtn(element){
     element.classList.toggle("addToFavourite")
 }
 
+// ----------------------------------------------------------------
+// Create form for new blog post
+
+const input = document.querySelector("#text-field");
+const preview = document.querySelector("#preview");
+
+input.addEventListener("change", event => {
+  preview.innerText = event.target.value
+});
+

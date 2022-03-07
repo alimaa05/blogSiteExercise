@@ -29,7 +29,7 @@ h3{
 
 
 /* ------------------------------ */
-
+/* for the favourites button */
 .fav-btn{
     display: flex;
     font-size: 17px;
@@ -50,4 +50,20 @@ h3{
 
 .addToFavourite:hover {
     color: yellow;
+  }
+
+  /* ------------------------------ */
+/* blog forms */
+  #form{
+      display: flex;
+      justify-content:center;
+      flex-direction: column;
+    
+  }
+
+  .text-field{
+      width: 25%;
+      padding: 20px;
+      margin-top: 20px;
+
   }
