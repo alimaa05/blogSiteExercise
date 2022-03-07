@@ -1,0 +1,27 @@
+body{
+    background-color: #d0efff;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+h3{
+    color: #aaaaaa;
+}
+
+.post{
+    margin: 2em;
+    border: 1px solid #000000;
+    padding: 1em;
+}
+
+#title-section{
+    border: 1px solid #000000;
+    padding: 1em;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.dark-mode-button{
+    background-color: #222;
+    color: #e6e6e6;
+}
