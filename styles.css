@@ -61,9 +61,12 @@ h3{
     
   }
 
-  .text-field{
-      width: 25%;
-      padding: 20px;
-      margin-top: 20px;
+  #text-field{
+      width: 30%;
+      padding: 10px;
+  }
 
+  #preview{
+      width: 25%;
+      padding: 50px;
   }
